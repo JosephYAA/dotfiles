@@ -1,0 +1,6 @@
+{{- if ne .chezmoi.os "linux"}}
+.config/hypr
+.config/mako
+.config/waybar
+.config/xdg-desktop-portal
+{{- end }}
