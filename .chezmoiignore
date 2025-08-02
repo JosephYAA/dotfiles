@@ -3,4 +3,5 @@
 .config/mako
 .config/waybar
 .config/xdg-desktop-portal
+.config/walker
 {{- end }}
