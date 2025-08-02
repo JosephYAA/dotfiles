@@ -70,6 +70,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+export XDG_CONFIG_HOME="$HOME/.config"
 export ZOXIDE_CMD_OVERRIDE=cd
 plugins=(git starship zoxide eza)
 
